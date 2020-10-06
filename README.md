@@ -15,14 +15,16 @@ I also added error text to indicate what needs to be changed if the user attempt
 - 1 hour getting the loading icon to show in all appropriate places
 - 1 hour cleaning up code and small CSS tweaks
 
-~10 hours total, maybe closer to 11 
+~10 hours total, maybe closer to 11
+
 
 ### Additional Considerations
 - Adding in the login/authentication tokens would have been nice to have, but I did not complete it. 
 - Currently there is no routing, only internal state. I would like to add some routing so / and /recipe are different pages, allowing the user to hit the back button.
 - If I were to do this again I would have structured the individual recipe page as a component rather than a function.  
 - This was the first webApp I built in React, previously I have edited existing code and made an app with Expo.io (without needing to do routing).
-- I actually learned a lot and could probably do this similar task in about half to 3/4 of the time were I to do it again. 
+- I actually learned a lot and could probably do this similar task in about half to 3/4 of the time were I to do it again.
+- Most of the action happens in the [Card.js](https://github.com/PositiveVibe/recipes/blob/main/src/Card.js) file.
 
 Thank you! 
 
